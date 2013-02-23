@@ -3,10 +3,13 @@ USE_CAMERA_STUB := true
 # inherit from the proprietary version
 -include vendor/wiko/s9081/BoardConfigVendor.mk
 
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+TARGET_CPU_SMP := true
 TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := unknown
-TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := s9081
 
 BOARD_KERNEL_CMDLINE := 
