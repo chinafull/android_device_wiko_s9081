@@ -1,0 +1,9 @@
+Welcome to the device tree of the Wiko CINK King.
+Codename: S9081
+Manufacturer: TinnoMobile
+
+This is not a functional device tree.. Stil need a lot of work:
+
+-> General device configuration
+-> Kernel modules
+-> Proprietary blobs
